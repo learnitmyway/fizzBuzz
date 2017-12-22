@@ -10,6 +10,7 @@ public class FizzBuzzTest {
         FizzBuzz fizzBuzz = new FizzBuzz();
         assertThat(fizzBuzz.processNumber(1), is("1"));
         assertThat(fizzBuzz.processNumber(2), is("2"));
+        assertThat(fizzBuzz.processNumber(3), is("Fizz"));
     }
 
 }
