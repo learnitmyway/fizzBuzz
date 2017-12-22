@@ -4,6 +4,6 @@ public class FizzBuzz {
     }
 
     public String processNumber(int number) {
-        return "1";
+        return String.valueOf(number);
     }
 }

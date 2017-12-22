@@ -9,6 +9,7 @@ public class FizzBuzzTest {
     public void shouldProcessNumber() {
         FizzBuzz fizzBuzz = new FizzBuzz();
         assertThat(fizzBuzz.processNumber(1), is("1"));
+        assertThat(fizzBuzz.processNumber(2), is("2"));
     }
 
 }
