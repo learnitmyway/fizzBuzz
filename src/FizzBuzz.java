@@ -1,7 +1,11 @@
 public class FizzBuzz {
 
     public String execute(int[] numbers) {
-        return processNumber(numbers[0]);
+        String[] processedNumbers = new String[numbers.length];
+        for (int i = 0; i < numbers.length; i++) {
+            processedNumbers[i] = processNumber(numbers[i]);
+        }
+        return String.join(", ", processedNumbers);
     }
 
     String processNumber(int number) {
