@@ -3,7 +3,7 @@ public class FizzBuzz {
     public void execute() {
     }
 
-    public String processNumber(int number) {
+    String processNumber(int number) {
         if (isMultipleOf3(number) && isMultipleOf5(number)) {
             return "FizzBuzz";
         }
