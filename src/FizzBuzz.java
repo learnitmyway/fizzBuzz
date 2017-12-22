@@ -1,6 +1,7 @@
 public class FizzBuzz {
 
-    public void execute() {
+    public String execute(int[] numbers) {
+        return processNumber(numbers[0]);
     }
 
     String processNumber(int number) {

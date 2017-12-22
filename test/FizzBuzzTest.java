@@ -6,6 +6,13 @@ import static org.junit.Assert.*;
 public class FizzBuzzTest {
 
     @Test
+    public void shouldExecute() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        assertThat(fizzBuzz.execute(new int[]{1}), is("1"));
+    }
+
+    @Test
     public void shouldProcessNumber() {
         FizzBuzz fizzBuzz = new FizzBuzz();
         assertThat(fizzBuzz.processNumber(1), is("1"));
