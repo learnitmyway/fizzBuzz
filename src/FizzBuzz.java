@@ -4,7 +4,7 @@ public class FizzBuzz {
     }
 
     public String processNumber(int number) {
-        if (number == 3) {
+        if (number % 3 == 0) {
             return "Fizz";
         }
 
@@ -12,7 +12,6 @@ public class FizzBuzz {
             return "Buzz";
         }
 
-        
         return String.valueOf(number);
     }
 }

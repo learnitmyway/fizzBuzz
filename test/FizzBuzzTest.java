@@ -12,6 +12,7 @@ public class FizzBuzzTest {
         assertThat(fizzBuzz.processNumber(2), is("2"));
         assertThat(fizzBuzz.processNumber(3), is("Fizz"));
         assertThat(fizzBuzz.processNumber(5), is("Buzz"));
+        assertThat(fizzBuzz.processNumber(6), is("Fizz"));
     }
 
 }
