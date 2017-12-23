@@ -1,11 +1,12 @@
+import java.util.Arrays;
+import java.util.stream.Collectors;
+
 public class FizzBuzz {
 
     public String execute(int[] numbers) {
-        String[] processedNumbers = new String[numbers.length];
-        for (int i = 0; i < numbers.length; i++) {
-            processedNumbers[i] = processNumber(numbers[i]);
-        }
-        return String.join(", ", processedNumbers);
+        return Arrays.stream(numbers)
+                .mapToObj(this::processNumber)
+                .collect(Collectors.joining(", "));
     }
 
     String processNumber(int number) {
