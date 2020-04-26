@@ -1,5 +1,5 @@
 # Fizz Buzz
-This exercise is a demonstration of TDD.
+This exercise is a demonstration of TDD in Java. I have also completed the exercise in [JavaScript](https://github.com/learnitmyway/fizz-buzz-js)
 
 ## Task
 https://en.wikipedia.org/wiki/Fizz_buzz
