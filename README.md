@@ -5,5 +5,5 @@ This exercise is a demonstration of TDD in Java. I have also completed the exerc
 https://en.wikipedia.org/wiki/Fizz_buzz
 
 ## Article
-[A really simple example of TDD](https://www.learnitmyway.com/tdd-example/):
+[A really simple example of TDD in Java](https://learnitmyway.com/tdd-example-java/):
 A step by step introduction to Test Driven Development.
